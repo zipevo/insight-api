@@ -9,7 +9,7 @@ describe('Utils', function() {
     it('should give the correct fee', function(done) {
       var node = {
         services: {
-          dashd: {
+          zipd: {
             estimateFee: function(blocks, callback) {
               switch(blocks) {
               case 1:

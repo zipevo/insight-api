@@ -36,7 +36,7 @@ describe('Status', function() {
 
     var node = {
       services: {
-        dashd: {
+        zipd: {
           getInfo: sinon.stub().callsArgWith(0, null, info),
           getBestBlockHash: sinon.stub().callsArgWith(0, null, outSetInfo.bestblock),
           getBestChainLock: sinon.stub().callsArgWith(0, null, outSetInfo.bestchainlock),
@@ -137,7 +137,7 @@ describe('Status', function() {
     it('should have correct data', function(done) {
       var node = {
         services: {
-          dashd: {
+          zipd: {
             height: 500000,
             isSynced: sinon.stub().callsArgWith(0, null, true),
             syncPercentage: sinon.stub().callsArgWith(0, null, 99.99)
