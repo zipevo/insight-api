@@ -315,5 +315,12 @@
     "searchStrings":[
       "/stratum/"
     ]
+  },
+  {
+    "poolName":"Stratum Pool",
+    "url":"https://pool.6zip.online",
+    "searchStrings":[
+      "/stratum/"
+    ]
   }
 ]
